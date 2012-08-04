@@ -28,7 +28,7 @@
 static char buf[BUFSZ];
 
 static void usage(FILE *f) {
-    fprintf(f, "usage: rolla [-h] [-w WEIGHT] [FILES]\n");
+    fprintf(f, "usage: rollavg [-h] [-w WEIGHT] [FILES]\n");
 }
 
 static void rolling_average_loop(FILE *f, float weight) {
