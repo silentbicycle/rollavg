@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
             }
             break;
         default:
-            fprintf(stderr, "Unknown option: -%c\n", c);
+            fprintf(stderr, "Unknown option: -%c\n", optopt);
             usage(stderr);
             exit(1);
         }
